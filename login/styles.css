@@ -1,0 +1,58 @@
+main .container {
+  background-color: rgba(153, 153, 153, 0.514);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+main .container .form-container {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 30px 20px;
+  border-radius: 5px;
+  text-align: center;
+  gap: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+main .container .form-container p {
+  color: rgb(65, 65, 65);
+  font-size: 18px;
+}
+main .container .form-container form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+main .container .form-container form label {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 35px;
+}
+main .container .form-container form label input {
+  width: 60%;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid rgb(216, 216, 216);
+}
+main .container .form-container form #submit-login-btn {
+  height: 35px;
+  width: 100%;
+  align-self: center;
+  margin-top: 30px;
+  background-color: rgb(0, 148, 169);
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s all;
+}
+main .container .form-container form #submit-login-btn:hover {
+  transition: 0.2s all;
+  background-color: rgb(1, 129, 146);
+}/*# sourceMappingURL=styles.css.map */
